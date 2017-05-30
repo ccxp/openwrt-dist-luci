@@ -1,8 +1,6 @@
 msgid ""
 msgstr "Content-Type: text/plain; charset=UTF-8\n"
 
-msgid "Also filter results inside China from foreign DNS servers"
-msgstr "同时过滤从国外DNS返回的IP为国内的结果"
 
 msgid "ChinaDNS"
 msgstr "ChinaDNS"
@@ -10,8 +8,8 @@ msgstr "ChinaDNS"
 msgid "CHNRoute File"
 msgstr "国内路由表"
 
-msgid "Enable Bidirectional Filter"
-msgstr "启用双向过滤"
+msgid "GFW List File"
+msgstr "GFW List File"
 
 msgid "Enable"
 msgstr "启用"

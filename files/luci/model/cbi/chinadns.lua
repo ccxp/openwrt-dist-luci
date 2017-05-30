@@ -16,11 +16,6 @@ s.anonymous   = true
 o = s:option(Flag, "enable", translate("Enable"))
 o.rmempty     = false
 
-o = s:option(Flag, "bidirectional",
-	translate("Enable Bidirectional Filter"),
-	translate("Also filter results inside China from foreign DNS servers"))
-o.rmempty     = false
-
 o = s:option(Value, "port", translate("Local Port"))
 o.placeholder = 5353
 o.default     = 5353
@@ -30,6 +25,12 @@ o.rmempty     = false
 o = s:option(Value, "chnroute", translate("CHNRoute File"))
 o.placeholder = "/etc/chinadns_chnroute.txt"
 o.default     = "/etc/chinadns_chnroute.txt"
+o.datatype    = "file"
+o.rmempty     = false
+
+o = s:option(Value, "gfwlist", translate("GFW List File"))
+o.placeholder = "/etc/gfwlist.txt"
+o.default     = "/etc/gfwlist.txt"
 o.datatype    = "file"
 o.rmempty     = false
 
